@@ -1,0 +1,1233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{041d633a-c9c9-4e80-acc8-a91c5f3243da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\items">
+      <UniqueIdentifier>{d36ca0c9-e384-4e16-9a40-7b8bf9932d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\block">
+      <UniqueIdentifier>{a385c220-2b32-4665-b12e-cc6818341743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\particles">
+      <UniqueIdentifier>{ff3927a3-7f9d-45c2-b358-6fad60908314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\colormap">
+      <UniqueIdentifier>{e30b37a9-f9b7-44be-8d6f-a1448cf9ea5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\enviroment">
+      <UniqueIdentifier>{e9597dc0-8184-48e1-927c-ea30be846af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\GUI">
+      <UniqueIdentifier>{40ed0c61-bdd3-4af1-82bd-e12e7c4e189b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\scriptures">
+      <UniqueIdentifier>{fdea8f72-1b16-48f0-a9ed-1a3a361e2fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugtest">
+      <UniqueIdentifier>{4261a38e-a46e-49f6-914a-0962f1b63941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\expanded_foods">
+      <UniqueIdentifier>{3e952d18-edb0-492f-8932-02f89f9d2f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\playereffects">
+      <UniqueIdentifier>{44adeeeb-bf85-4c01-9842-6757a457e392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\tex\textures\block\iron_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\amethyst_block.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\ancient_debris_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\ancient_debris_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\barrel_bottom.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\barrel_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\barrel_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\barrel_top_open.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\basalt_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\basalt_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\bedrock.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\birch_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\birch_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\birch_planks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\chiseled_sandstone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\coal_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\cobbled_deepslate.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\cobblestone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\cracked_deepslate_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\cracked_deepslate_tiles.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\deepslate.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\deepslate_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\deepslate_coal_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\diamond_block.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\diamond_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dirt.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dragon_egg.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dried_kelp_bottom.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dried_kelp_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dried_kelp_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dripstone_block.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\emerald_block.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\emerald_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\end_stone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\end_stone_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\gold_block.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\gold_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\grass_block_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\grass_block_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\gravel.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dark_oak_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\dark_oak_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\jungle_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\jungle_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\oak_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\oak_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\stone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\stone_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\chiseled_stone_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\apple.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\axolotl_bucket.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\blaze_powder.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\blaze_rod.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\bone.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\amethyst_shard.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\chain.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\brick.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\carrot.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\ghast_tear.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\glass_bottle.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\glistering_melon_slice.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\glow_berries.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_boots.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_chestplate.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_helmet.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_hoe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_leggings.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\diamond_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\dragon_breath.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\dried_kelp.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\egg.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\elytra.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\emerald.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\ender_eye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\ender_pearl.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\feather.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\fermented_spider_eye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\firework_rocket.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\flint.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\flint_and_steel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\item_frame.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\jungle_boat.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\kelp.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\lapis_lazuli.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\lava_bucket.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\glowstone_dust.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\gold_ingot.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\gold_nugget.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_apple.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_boots.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_carrot.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_chestplate.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_helmet.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_hoe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_leggings.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\golden_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\green_dye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\gunpowder.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\heart_of_the_sea.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\honeycomb.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_boots.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_chestplate.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_helmet.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_ingot.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\iron_leggings.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\raw_copper.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\raw_gold.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\raw_iron.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\leather.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\magma_cream.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\milk_bucket.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\minecart.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_11.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_13.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_blocks.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_cat.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_chirp.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_far.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_mall.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_mellohi.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_pigstep.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_stal.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_strad.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_wait.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\music_disc_ward.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\name_tag.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\nautilus_shell.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\nether_star.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\nether_wart.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_boots.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_chestplate.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_helmet.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_ingot.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_leggings.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_scrap.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\netherite_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\orange_dye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\painting.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\paper.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\phantom_membrane.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\pink_dye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\popped_chorus_fruit.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\porkchop.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\potato.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\potion.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\powder_snow_bucket.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\prismarine_crystals.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\prismarine_shard.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\pufferfish.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\quartz.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\rabbit.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\rabbit_foot.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\rabbit_hide.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\string.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\structure_void.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\sugar.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\sugar_cane.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\sweet_berries.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\totem_of_undying.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\trident.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\turtle_helmet.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\water_bucket.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\white_dye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wooden_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wooden_hoe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wooden_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wooden_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wooden_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\red_dye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\redstone.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\repeater.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\rotten_flesh.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\saddle.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\salmon.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\scute.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\shears.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\shulker_shell.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\slime_ball.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\snowball.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\spectral_arrow.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\spider_eye.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\spyglass.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\stick.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\stone_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\stone_hoe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\stone_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\stone_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\stone_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wheat_seeds.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\wheat.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\bee_nest_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\bee_nest_bottom.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\bee_nest_front.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\bee_nest_front_honey.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\block\bee_nest_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_12.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_13.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_14.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_15.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_00.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_01.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_02.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_03.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_04.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_05.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_06.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_07.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_08.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_09.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_10.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\item\light_11.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\colormap\grass.png">
+      <Filter>textures\colormap</Filter>
+    </Image>
+    <Image Include="..\tex\textures\colormap\foliage.png">
+      <Filter>textures\colormap</Filter>
+    </Image>
+    <Image Include="..\tex\textures\environment\moon_phases.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\environment\rain.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\environment\snow.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\environment\sun.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\environment\clouds.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\environment\end_sky.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\map\map_icons.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\map\map_background.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\map\map_background_checkerboard.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\shadow.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\underwater.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\vignette.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\enchanted_item_glint.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\forcefield.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\nausea.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\misc\pumpkinblur.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_8.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_9.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_10.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_0.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_1.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_2.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_3.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_4.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_5.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_6.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\soul_7.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\particle\damage.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\textures\gui\demo_background.png">
+      <Filter>textures\GUI</Filter>
+    </Image>
+    <Image Include="..\tex\textures\gui\widgets.png">
+      <Filter>textures\GUI</Filter>
+    </Image>
+    <Image Include="..\tex\textures\gui\icons.png">
+      <Filter>textures\GUI</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\deathworm_chitin_white.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\deathworm_chitin_yellow.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\amphithere_feather.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\amphithere_skull.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\deathworm_chitin_red.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\deathworm_egg.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\dragon_sword_fire.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\dragon_sword_ice.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\dragon_sword_lightning.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\dragon_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\dragonbone.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\summon_crystal_lightning_active.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\summon_crystal_fire.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\summon_crystal_fire_active.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\summon_crystal_ice.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\summon_crystal_ice_active.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\item\summon_crystal_lightning.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\particles\ember.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\particles\dragon_flame.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\particles\blood.png">
+      <Filter>textures\particles</Filter>
+    </Image>
+    <Image Include="..\tex\andfire\thaumcraft\dragon.png">
+      <Filter>textures\scriptures</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\ametrine_helmet.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\ametrine_leggings.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\ametrine_boots.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\ametrine_chestplate.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\ametrine_gems.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_battleaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_hoe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_scraps.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\pendorite_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_pendorite_hoe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_pendorite_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_pendorite_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_pendorite_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_shard.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_crystal.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_pendorite_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\item\therium_pendorite_battleaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\ebony_planks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\ametrine_ore.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\aspen_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\aspen_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\aspen_planks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\baobab_crafting_table_front.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\baobab_crafting_table_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\baobab_crafting_table_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\baobab_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\baobab_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\baobab_planks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_chiseled_sandstone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_cut_sandstone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_ice.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_sand.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_sandstone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_sandstone_bottom.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\black_sandstone_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\blazed_ash.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\brown_mushroom_stem.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\cherry_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\cherry_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\cherry_planks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\ebony_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\ebony_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\soul_shroom_block.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\red_rock.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\red_rock_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\redwood_log.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\redwood_log_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\redwood_planks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\rocky_stone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\scoria_cobblestone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\scoria_pillar_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\scoria_pillar_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\scoria_stone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\scoria_stonebrick.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\soapstone.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\soapstone_bricks.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\soapstone_pillar_side.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\soapstone_pillar_top.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\big\block\soapstone_polished.png">
+      <Filter>textures\block</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\brown_trout.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\jellyfish.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\leech.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\pink_salmon.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\piranha.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\pollock.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\rainbow_trout.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\red_grouper.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\red_shrooma.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\smallmouth_bass.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\tambaqui.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\tuna.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\arapaima.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\atlantic_cod.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\atlantic_halibut.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\atlantic_herring.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\bayad.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\blackfish.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\bluegill.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\aqua\brown_shrooma.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_full.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_new.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_waning_1_2.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_waning_1_4.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_waning_3_4.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_waxing_1_2.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_waxing_1_4.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\moon_waxing_3_4.png">
+      <Filter>textures\enviroment</Filter>
+    </Image>
+    <Image Include="..\tex\astral\illumination_wand.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\astral\crystal_axe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\astral\crystal_pickaxe.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\astral\crystal_shovel.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\astral\crystal_sword.png">
+      <Filter>textures\items</Filter>
+    </Image>
+    <Image Include="..\tex\efeitos\soul_cross.png">
+      <Filter>textures\playereffects</Filter>
+    </Image>
+    <Image Include="..\tex\efeitos\allure.png">
+      <Filter>textures\playereffects</Filter>
+    </Image>
+    <Image Include="..\tex\efeitos\bloodthirst.png">
+      <Filter>textures\playereffects</Filter>
+    </Image>
+    <Image Include="..\tex\efeitos\clear.png">
+      <Filter>textures\playereffects</Filter>
+    </Image>
+    <Image Include="..\tex\efeitos\emptiness.png">
+      <Filter>textures\playereffects</Filter>
+    </Image>
+    <Image Include="..\tex\efeitos\feather_feet.png">
+      <Filter>textures\playereffects</Filter>
+    </Image>
+    <Image Include="..\tex\thaumcraft\priscus.png">
+      <Filter>textures\scriptures</Filter>
+    </Image>
+    <Image Include="..\tex\thaumcraft\anteanus.png">
+      <Filter>textures\scriptures</Filter>
+    </Image>
+    <Image Include="..\tex\thaumcraft\chronos.png">
+      <Filter>textures\scriptures</Filter>
+    </Image>
+    <Image Include="..\tex\foods\agaveitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\apricotglazedporkitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\avocadoitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\bakedhamitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\bananaitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\banananutbreaditem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\batteredsausageitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\blueberryitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+    <Image Include="..\tex\foods\candleberryitem.png">
+      <Filter>textures\expanded_foods</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
